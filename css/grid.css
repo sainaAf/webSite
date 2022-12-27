@@ -1,0 +1,56 @@
+.color-blue {
+    background: #1EC6B6;
+    color: white;
+}
+
+/*...............................................*/
+
+@media (min-width: 1200px) {
+    #searchForm {
+        padding: 20px 10px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #form {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    #form input {
+        margin: 0 10px;
+    }
+
+    .search-btn {
+        margin-top: 10px;
+    }
+
+    /*..........................*/
+    .newsletter-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 60px;
+    }
+
+    .newsletter-form {
+        flex-direction: row !important;
+        justify-content: center;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+    .form-btn {
+        width: 10vw !important;
+        margin-left: 10px;
+    }
+}
+
+/*.................................................*/
+@media (min-width: 992px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
